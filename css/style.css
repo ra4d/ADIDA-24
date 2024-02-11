@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+* {
+	color: rgb(0, 0, 0);
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body {
+	background: rgb(255, 255, 255);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.efct {
+	background: linear-gradient(to bottom, #8400ff ,#ffffff00);
+	height: 90%;
+	width: 90%;
+	border-radius: 20px;
+	
+}
+.minue {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+
+
+}
+.minue .logo {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+
+.minue ul {
+	list-style: none;
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	padding: 15px 0;
+}
+.minue ul a  {
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 5px;
+	margin: 0 6px;
+}
+.minue ul a:hover {
+	color: rgb(255, 255, 255);
+
+}
+.content {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+	padding: 20px;
+	
+
+} 
+.basis-text .title {
+	text-transform: uppercase;
+	width: min-content;
+}
+.basis-text p {
+	max-width: 300px;
+	margin-bottom: 50px;
+}
+.box-img {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	transition: 0.3s linear;
+	border-radius: 8px;
+	
+}
+
+.box-img img {
+	width: 100%;
+}
+.box-img:hover {
+	scale: 2 2;
+}
+
+.form {
+	width: 250px;
+	height: 400px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	margin-top: 120px;
+	padding:25px;
+	border-radius: 10px;
+	position: relative;
+	top: -150px;
+	right: -10%;
+
+	
+	
+}
+.form h2 {
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 22px;
+	background-color: #8400ff;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+.form input {
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid #8400ff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	outline: none;
+}
+.btnn {
+	width: 240px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.4s ease;
+	color: #fff;
+}
+.btnn:hover {
+	background-color: #8400ff;
+}
+.btnn:hover a {
+	color: #000;
+}
+.btnn a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	transition: 0.5s ease;
+	background: transparent;
+
+
+}
+.btnn a:hover {
+	color: #000	;
+}
+.form .link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+.form .link a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.liw {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+
+}
+.icons a {
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	left: 37%;
+}
+.icons ion-icon{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 5px;
+	transition: 0.4s ease;
+}
+.icons ion-icon:hover {
+	color: #000;
+}
+ion-icon {
+	position: relative;
+	top: 3.8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
